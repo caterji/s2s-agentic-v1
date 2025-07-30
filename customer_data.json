@@ -1,0 +1,147 @@
+[
+  {
+    "customer_id": "C001",
+    "first_name": "Jason",
+    "location": "California",
+    "vehicle": {
+      "model": "Toyota Camry",
+      "year": 2019,
+      "current_mileage": 75000,
+      "last_service_miles": 67000,
+      "last_service_date": "2024-12-10"
+    },
+    "contact_preferences": {
+      "preferred_channel": "sms",
+      "tone_preference": "friendly"
+    },
+    "engagement_profile": {
+      "upgrade_interest_score": 8.7,
+      "last_offer_response": "positive",
+      "prior_upgrades": ["premium tires", "android auto"]
+    },
+    "financial_profile": {
+      "budget_bracket": "medium",
+      "warranty_status": "expired",
+      "loyalty_status": "gold"
+    },
+    "tags": ["frequent_driver", "tech_aware"],
+    "customer_image": "customers/customer_01_jason.jpg",
+    "vehicle_image": "vehicles/vehicle_01_camry.jpg"
+  },
+  {
+    "customer_id": "C002",
+    "first_name": "Monica",
+    "location": "Texas",
+    "vehicle": {
+      "model": "Toyota Corolla",
+      "year": 2020,
+      "current_mileage": 43000,
+      "last_service_miles": 39000,
+      "last_service_date": "2025-01-15"
+    },
+    "contact_preferences": {
+      "preferred_channel": "email",
+      "tone_preference": "professional"
+    },
+    "engagement_profile": {
+      "upgrade_interest_score": 6.1,
+      "last_offer_response": "neutral",
+      "prior_upgrades": []
+    },
+    "financial_profile": {
+      "budget_bracket": "premium",
+      "warranty_status": "active",
+      "loyalty_status": "silver"
+    },
+    "tags": ["eco_conscious"],
+    "customer_image": "customers/customer_02_monica.jpg",
+    "vehicle_image": "vehicles/vehicle_02_corolla.jpg"
+  },
+  {
+    "customer_id": "C003",
+    "first_name": "Derek",
+    "location": "Ohio",
+    "vehicle": {
+      "model": "Toyota RAV4",
+      "year": 2021,
+      "current_mileage": 108000,
+      "last_service_miles": 97000,
+      "last_service_date": "2024-10-01"
+    },
+    "contact_preferences": {
+      "preferred_channel": "call",
+      "tone_preference": "direct"
+    },
+    "engagement_profile": {
+      "upgrade_interest_score": 9.3,
+      "last_offer_response": "declined",
+      "prior_upgrades": ["roof rack"]
+    },
+    "financial_profile": {
+      "budget_bracket": "low",
+      "warranty_status": "expired",
+      "loyalty_status": "bronze"
+    },
+    "tags": ["value_seeker", "high_mileage"],
+    "customer_image": "customers/customer_03_derek.jpg",
+    "vehicle_image": "vehicles/vehicle_03_rav4.jpg"
+  },
+  {
+    "customer_id": "C004",
+    "first_name": "Emily",
+    "location": "New York",
+    "vehicle": {
+      "model": "Toyota Highlander",
+      "year": 2022,
+      "current_mileage": 62000,
+      "last_service_miles": 56000,
+      "last_service_date": "2025-02-20"
+    },
+    "contact_preferences": {
+      "preferred_channel": "email",
+      "tone_preference": "empathetic"
+    },
+    "engagement_profile": {
+      "upgrade_interest_score": 7.5,
+      "last_offer_response": "positive",
+      "prior_upgrades": ["hybrid battery inspection"]
+    },
+    "financial_profile": {
+      "budget_bracket": "medium",
+      "warranty_status": "active",
+      "loyalty_status": "gold"
+    },
+    "tags": ["eco_conscious", "early_adopter"],
+    "customer_image": "customers/customer_04_emily.jpg",
+    "vehicle_image": "vehicles/vehicle_04_highlander.jpg"
+  },
+  {
+    "customer_id": "C005",
+    "first_name": "Marcus",
+    "location": "Florida",
+    "vehicle": {
+      "model": "Toyota Prius Prime",
+      "year": 2023,
+      "current_mileage": 28000,
+      "last_service_miles": 25000,
+      "last_service_date": "2025-03-10"
+    },
+    "contact_preferences": {
+      "preferred_channel": "sms",
+      "tone_preference": "minimal"
+    },
+    "engagement_profile": {
+      "upgrade_interest_score": 5.4,
+      "last_offer_response": "unopened",
+      "prior_upgrades": []
+    },
+    "financial_profile": {
+      "budget_bracket": "premium",
+      "warranty_status": "active",
+      "loyalty_status": "silver"
+    },
+    "tags": ["tech_aware", "light_driver"],
+    "customer_image": "customers/customer_05_marcus.jpg",
+    "vehicle_image": "vehicles/vehicle_05_prius_prime.jpg"
+  }
+]
