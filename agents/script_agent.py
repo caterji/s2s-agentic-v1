@@ -1,4 +1,12 @@
 import json
+import sys
+import os
+
+# Add project root to path for absolute imports
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
+
 from agents.prospect_agent import evaluate_prospect_with_llm
 from agents.insight_agent import generate_insight_with_llm
 from agents.finance_agent import generate_finance_offer_with_llm

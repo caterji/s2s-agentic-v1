@@ -5,12 +5,12 @@ import sys
 import os
 import json
 
-
-# Add project root to path
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+# Add project root to path for Streamlit Cloud compatibility
+ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
 
+# Import all required modules
 from utils.customer_helper import load_all_customers
 from agents.prospect_agent import evaluate_prospect_with_llm
 from agents.insight_agent import generate_insight_with_llm
